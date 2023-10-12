@@ -1,0 +1,58 @@
+/* Styles for header section (Batman theme) */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #2c3e50; /* Dark background color (Batman theme) */
+  padding: 10px 20px; /* Add some padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.header label {
+  margin-right: 10px;
+  color: #ecf0f1; /* Light text color (Batman theme) */
+  font-weight: bold; /* Bold text */
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header input[type="checkbox"] {
+  display: none; /* Hide the default checkbox */
+}
+
+.header input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #ecf0f1; /* Light text color (Batman theme) */
+  font-weight: bold; /* Bold text */
+}
+
+.header input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #3498db; /* Checkbox border color (Batman theme) */
+  background-color: #ecf0f1; /* Light background color (Batman theme) */
+  transition: all 0.3s ease; /* Transition effect on hover */
+}
+
+.header input[type="checkbox"]:checked + label:before {
+  background-color: #3498db; /* Checked background color (Batman theme) */
+  border-color: #3498db; /* Checked border color (Batman theme) */
+}
+
+.header input[type="checkbox"]:hover + label:before {
+  border-color: #3498db; /* Hovered border color (Batman theme) */
+}
+
+.header input[type="checkbox"]:checked:hover + label:before {
+  background-color: #3498db; /* Checked and hovered background color (Batman theme) */
+  border-color: #3498db; /* Checked and hovered border color (Batman theme) */
+}

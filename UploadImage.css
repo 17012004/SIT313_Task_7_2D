@@ -1,0 +1,61 @@
+.Imager {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .file-info-container {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px; 
+  }
+  
+  .custom-file-upload {
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #007bff; /* Background color for the box-style button */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px; /* Adjust padding for the button */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .custom-file-upload:active {
+    background-color: #004080; /* Change background color on active */
+  }
+  
+  button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #004080;
+  }
+  

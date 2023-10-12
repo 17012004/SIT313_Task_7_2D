@@ -1,0 +1,161 @@
+/* Filter and New Question styles */
+.filter h5,
+.newQuestion h3 {
+  float: left;
+  margin-left: auto;
+  font-weight: 500;
+  color: #ffd700; /* Yellow color for text */
+}
+
+.filter,
+.newQuestion {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #2c3e50; /* Dark gray background color */
+  border-radius: 5px;
+}
+
+.filter h4{
+  text-align: left;
+  margin-left: auto;
+  color: #ffd700;
+}
+
+.filter input,
+.newQuestion input {
+  width: calc(100% - 22px);
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ecf0f1; /* Light gray input background color */
+  color: #2c3e50; /* Dark gray text color */
+}
+
+.filter button,
+.newQuestion button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  background-color: #f39c12; /* Orange button background color */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.filter button:hover,
+.newQuestion button:hover {
+  background-color: #e67e22; /* Darker orange button background color on hover */
+}
+
+/* Styles for Question cards */
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #34495e; /* Dark gray background color for cards */
+  border: 1px solid #2c3e50; /* Dark gray border color */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+  transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffd700; /* Yellow color for text */
+}
+
+.card button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #e74c3c; /* Red button background color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #c0392b; /* Darker red button background color on hover */
+}
+
+.card button:last-child:hover {
+  background-color: #2ecc71; /* Green button background color for the last button on hover */
+}
+/* Styles for Add New Question section */
+.nava-sawaal {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #2c3e50; /* Dark gray background color */
+  border-radius: 5px;
+}
+
+.nava-sawaal h3 {
+  float: left;
+  margin-left: auto;
+  font-weight: 500;
+  color: #ffd700; /* Yellow color for text */
+}
+
+.nava-sawaal input {
+  width: calc(100% - 22px);
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ecf0f1; /* Light gray input background color */
+  color: #2c3e50; /* Dark gray text color */
+}
+
+.nava-sawaal button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f39c12; /* Orange button background color */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nava-sawaal button:hover {
+  background-color: #e67e22; /* Darker orange button background color on hover */
+}
+/* Styles for expanded details in Questions section */
+.card div {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #ff5f5f; /* Red background color for details */
+  color: white;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif; /* Use a suitable font-family */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold; /* Bold font */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for details */
+}
+
+.card div h3 {
+  font-size: 18px; /* Larger font size for headings */
+  margin-bottom: 10px; /* Margin at the bottom of headings */
+  color: #007bff; /* Blue text color for details heading */
+}
+
+.card div p {
+  margin-top: 10px;
+  line-height: 1.5; /* Adjust line height for readability */
+}

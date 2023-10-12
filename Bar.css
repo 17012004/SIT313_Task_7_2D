@@ -1,0 +1,16 @@
+.CenteredBar {
+  display: flex;
+  background-color: rgb(185, 137, 137);
+  width: 100%; /* Add this to make it full width */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.CenteredBar p {
+  text-align: left;
+  font-weight: bold;
+  display: block;
+  width: 100%; /* Add this to make the text span the full width */
+  max-width: 100%; /* Optionally, set a maximum width for the content */
+  margin: 0 auto; /* Center the content within the maximum width */
+}
